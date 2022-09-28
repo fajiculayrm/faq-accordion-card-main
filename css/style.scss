@@ -99,6 +99,11 @@ body {
 .QandA {
     padding: 1rem 0;
     border-bottom: 0.0625rem solid $divider;
+    cursor: pointer;
+    transition: 0.3s;
+    &:hover h2 {
+        color: $soft-red;
+    }
 }
 
 .question {
@@ -114,6 +119,7 @@ h2 {
 
 p {
     font-size: 0.8rem;
+    color: $secondary;
     display: none;
 }
 .attribution {

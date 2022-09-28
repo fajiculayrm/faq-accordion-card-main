@@ -183,6 +183,11 @@ body {
 .QandA {
   padding: 1rem 0;
   border-bottom: 0.0625rem solid hsl(240deg, 5%, 91%);
+  cursor: pointer;
+  transition: 0.3s;
+}
+.QandA:hover h2 {
+  color: hsl(14deg, 88%, 65%);
 }
 
 .question {
@@ -198,6 +203,7 @@ h2 {
 
 p {
   font-size: 0.8rem;
+  color: hsl(240deg, 6%, 50%);
   display: none;
 }
 
